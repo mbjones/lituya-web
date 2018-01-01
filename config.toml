@@ -32,50 +32,42 @@ googleAnalytics = ""
 		brand = "Lituya"
 
 		[params.navigation.links]
-			about     = "About"
 			services  = "Charters"
 			portfolio = "Gallery"
+			about     = "About"
 			contact   = "Contact"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Lituya: a Southeast Alaska adventure"
+		slogan     = "Lituya: Southeast Alaska Adventure"
 		subtitle   = "Explore Southeast Alaska aboard Lituya, a luxurious Nordic Tug based in Juneau, AK. Available for bareboat and skippered charters."
 		buttonText = "Charter Details"
 
-
-	# About section
-	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
-
-
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "Charters"
 
         [[params.services.list]]
             icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            title = "Bareboat"
+            description = "All about Bareboat charters."
 
         [[params.services.list]]
 			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+			title = "Skippered"
+			description = "All about Skippered Charters!"
 
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+#		[[params.services.list]]
+#            icon = "fa-newspaper-o"
+#            title = "Up to Date"
+#            description = "We update dependencies to keep things fresh."
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+#        [[params.services.list]]
+#            icon = "fa-heart"
+#            title = "Made with Love"
+#            description = "You have to make your websites with love these days!"
 
 
     # Portfolio modals
@@ -85,13 +77,19 @@ googleAnalytics = ""
         category = "Category"
         buttonText = "Close"
 
-    # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+	# About section
+	[params.about]
+		headline    = "All about Lituya"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started!"
 
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+    # Aside section
+#	[params.aside]
+#		headline = "Get the Creative Theme for Hugo"
+#
+#		[params.aside.button]
+#			text = "Download now"
+#			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
@@ -101,7 +99,7 @@ googleAnalytics = ""
 		email = "feedback@startbootstrap.com"
 
 	# Google Maps section
-	# [params.location]
-	# 	latitude  = "34.007850"
-	# 	longitude = "-118.499305"
-	# 	maps_api_key = ""
+	[params.location]
+	latitude  = "58.382433"
+	longitude = "-134.648417"
+	maps_api_key = "AIzaSyBSzGDU9KAtNFyBJmkT9MxExZUwZX4_fQo"
