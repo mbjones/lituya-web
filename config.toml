@@ -88,7 +88,7 @@ googleAnalytics = ""
 	# About section
 	[params.about]
 		headline    = "Charter Info"
-		description = "Launched in 2009, the Lituya is a 42′ Nordic Tug built by Nordic Tugs of Burlington, Washington. The Lituya is fully equipped, seaworthy, and comfortable, and available out of Juneau, AK for both skippered or bare-boat charters in S.E. Alaska."
+		description = "Launched in 2009, the Lituya is a 42′ Nordic Tug built by [Nordic Tugs](http://www.nordictugs.com/) of Burlington, Washington. The Lituya is fully equipped, seaworthy, and comfortable, and available out of Juneau, AK for both skippered or bare-boat charters in S.E. Alaska."
 		#buttonText  = "Get started!"
 
     # Aside section
