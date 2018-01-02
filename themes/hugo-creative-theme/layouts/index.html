@@ -16,8 +16,8 @@
             {{ partial "services.html" . }}
         {{ end }}
 
-        {{ if .Site.Data.projects }}
-            {{ partial "portfolio.html" . }}
+        {{ if .Site.Params.gallery }}
+            {{ partial "gallery.html" . }}
         {{ end }}
 
         {{ if .Site.Params.about }}

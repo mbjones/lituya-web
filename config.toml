@@ -1,4 +1,4 @@
-baseurl = "https://lituya.org/"
+#baseurl = "https://lituya.org/"
 languageCode = "en-us"
 title = "Lituya: Charter Cruises in Southeast Alaska"
 theme = "hugo-creative-theme"
@@ -33,7 +33,8 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			services  = "Charters"
-			portfolio = "Gallery"
+			#portfolio = "Portfolio"
+			gallery = "Gallery"
 			about     = "About"
 			contact   = "Contact"
 
@@ -41,8 +42,8 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Lituya: Southeast Alaska Adventure"
-		subtitle   = "Explore Southeast Alaska aboard Lituya, a luxurious Nordic Tug based in Juneau, AK. Available for bareboat and skippered charters."
+		slogan     = "Lituya<br>Adventures in<br>Southeast Alaska"
+		subtitle   = "Explore Southeast Alaska aboard Lituya, a classic Nordic Tug based in Juneau, AK. Available for bareboat and skippered charters."
 		buttonText = "Charter Details"
 
 	# Service section
@@ -76,6 +77,12 @@ googleAnalytics = ""
         date = "Date"
         category = "Category"
         buttonText = "Close"
+
+    # Gallery section
+	[params.gallery]
+		headline    = "Gallery"
+		dir = "/img/lituya_gallery"
+		thumb = "-thumb"
 
 	# About section
 	[params.about]

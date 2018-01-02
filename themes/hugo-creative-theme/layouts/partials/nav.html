@@ -26,6 +26,11 @@
                         <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.navigation.links.gallery }}
+                    <li>
+                        <a class="page-scroll" href="#gallery">{{ .Site.Params.navigation.links.gallery }}</a>
+                    </li>
+                {{ end }}
                 {{ if and .Site.Params.about .Site.Params.navigation.links.about }}
                     <li>
                         <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>

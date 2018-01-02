@@ -1,3 +1,6 @@
 ---
 site: blogdown:::blogdown_site
 ---
+
+{{< gallery dir="/img/lituya-gallery/" />}} {{< load-photoswipe >}}
+
