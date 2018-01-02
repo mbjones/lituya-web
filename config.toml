@@ -43,32 +43,32 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Lituya<br>Adventures in<br>Southeast Alaska"
-		subtitle   = "Explore Southeast Alaska aboard Lituya, a classic Nordic Tug based in Juneau, AK. Available for bareboat and skippered charters."
+		subtitle   = "Explore Southeast Alaska aboard Lituya, a classic Nordic Tug 42 based in Juneau, AK. Available for bareboat and skippered charters."
 		buttonText = "Charter Details"
 
 	# Service section
 	[params.services]
-		headline = "Charters"
+		headline = "Lituya Charters"
 
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Bareboat"
-            description = "All about Bareboat charters."
+            icon = "fa-map-o"
+            title = "Explore"
+            description = "Glaciers, fjords, islands, and local cultures... explore the hidden gems all around Southeast Alaska."
 
         [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Skippered"
-			description = "All about Skippered Charters!"
+			icon = "vs vs-fish"
+			title = "Fish"
+			description = "Discover all five species of salmon, along with halibut, crab, and more..."
 
-#		[[params.services.list]]
-#            icon = "fa-newspaper-o"
-#            title = "Up to Date"
-#            description = "We update dependencies to keep things fresh."
+		[[params.services.list]]
+            icon = "fa-camera"
+            title = "Sightsee"
+            description = "Wildlife abounds.  Humpback whales, brown and black bears, and orcas around every corner."
 
-#        [[params.services.list]]
-#            icon = "fa-heart"
-#            title = "Made with Love"
-#            description = "You have to make your websites with love these days!"
+        [[params.services.list]]
+            icon = "vs vs-sunrise"
+            title = "Visit"
+            description = "Visit Petersberg, Sitka, Klawock, and Craig for unique views of life in Alaska."
 
 
     # Portfolio modals
