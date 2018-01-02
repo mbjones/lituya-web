@@ -1,5 +1,5 @@
 <section class="no-padding" id="gallery">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 {{ with .Site.Params.gallery.headline }}
@@ -8,7 +8,7 @@
                 <hr class="primary">
             </div>
         </div>
-        <div class="row no-gutter">
+        <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
 
 {{- $.Page.Scratch.Add "figurecount" 1 }}
