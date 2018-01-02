@@ -25,7 +25,7 @@ googleAnalytics = ""
 	description = "Lituya is a Nordic Tug 42 boat available for boat and fishing charters in Southeast Alaska."
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "favicon.png"
 
 
 	# Navigation
