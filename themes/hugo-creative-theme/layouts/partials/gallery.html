@@ -11,47 +11,44 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
 
-{{- $.Page.Scratch.Add "figurecount" 1 }}
-{{ $baseURL := $.Site.BaseURL }}
+                {{- $.Page.Scratch.Add "figurecount" 1 }}
+                {{ $baseURL := $.Site.BaseURL }}
 
-<div class="gallery
-            caption-position-center
-            caption-effect-slide
-            hover-effect-zoom
-            hover-transition"
-            itemscope itemtype="http://schema.org/ImageGallery">
-	{{- with $.Site.Params.gallery.dir -}}
-		<!-- If a directory was specified, generate figures for all of the images in the directory -->
-		{{- $files := readDir (print "/static/" .) }}
-		{{- range $files -}}
-			<!-- skip files that aren't images, or that inlcude the thumb suffix in their name -->
-			{{- $thumbext := $.Site.Params.gallery.thumb | default "-thumb" }}
-			{{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
-			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->
-			{{- if and $isimg (not $isthumb) }}
-				{{- $caption :=  .Name | replaceRE "\\..*" "" | humanize }}<!-- humanized filename without extension -->
-				{{- $linkURL := print $.Site.Params.gallery.dir "/" .Name | absURL }}<!-- absolute URL to hi-res image -->
-				{{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}<!-- filename of thumbnail image -->
-				{{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? -->
-				{{- $thumbURL := print $.Site.Params.gallery.dir "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}');" >
-				      <img itemprop="thumbnail" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /><!-- <img> hidden if in .gallery -->
-				    </div>
-			      <figcaption>
-		          <p>{{ $caption }}</p>
-			      </figcaption>
-				    <a href="{{ $linkURL }}" itemprop="contentUrl"></a><!-- put <a> last so it is stacked on top -->
-				  </figure>
-				</div>
-			{{- end }}
-		{{- end }}
-	{{- else -}}
-		<!-- If no directory was specified, include any figure shortcodes called within the gallery -->
-	  {{ .Inner }}
-	{{- end }}
-</div>
+                <div class="gallery
+                            caption-position-center
+                            caption-effect-slide
+                            hover-effect-zoom
+                            hover-transition"
+                            itemscope itemtype="http://schema.org/ImageGallery">
+                	{{- with $.Site.Params.gallery.dir -}}
+                		<!-- If a directory was specified, generate figures for all of the images in the directory -->
+                		{{- $files := readDir (print "/static/" .) }}
+                		{{- range $files -}}
+                			<!-- skip files that aren't images, or that inlcude the thumb suffix in their name -->
+                			{{- $thumbext := $.Site.Params.gallery.thumb | default "-thumb" }}
+                			{{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
+                			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->
+                			{{- if and $isimg (not $isthumb) }}
+                				{{- $caption :=  .Name | replaceRE "\\..*" "" | humanize }}<!-- humanized filename without extension -->
+                				{{- $linkURL := print $.Site.Params.gallery.dir "/" .Name | absURL }}<!-- absolute URL to hi-res image -->
+                				{{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}<!-- filename of thumbnail image -->
+                				{{- $thumbexists := where $files "Name" $thumb }}<!-- does a thumbnail image exist? -->
+                				{{- $thumbURL := print $.Site.Params.gallery.dir "/" $thumb | absURL }}<!-- absolute URL to thumbnail image -->
+                				<div class="box">
+                				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                				    <div class="img" style="background-image: url('{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}');" >
+                				      <img itemprop="thumbnail" src="{{ if $thumbexists }}{{ $thumbURL }}{{ else }}{{ $linkURL }}{{ end }}" alt="{{ $caption }}" /><!-- <img> hidden if in .gallery -->
+                				    </div>
+                			      <figcaption>
+                		          <p>{{ $caption }}</p>
+                			      </figcaption>
+                				    <a href="{{ $linkURL }}" itemprop="contentUrl"></a><!-- put <a> last so it is stacked on top -->
+                				  </figure>
+                				</div>
+                			{{- end }}
+                		{{- end }}
+                	{{- end }}
+                </div>
             </div>
         </div>
     </div>
