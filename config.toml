@@ -69,7 +69,7 @@ googleAnalytics = ""
         [[params.services.list]]
             icon = "vs vs-sunrise"
             title = "Visit"
-            description = "Visit Petersberg, Sitka, Klawock, and Craig for unique views of life in Alaska."
+            description = "Visit Petersburg, Sitka, Gustavus, and others for unique views of life in Alaska."
 
 
     # Portfolio modals
