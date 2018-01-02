@@ -1,4 +1,5 @@
-baseurl = "https://lituya.netlify.com"
+#baseurl = "https://lituya.netlify.com"
+baseurl = "https://nordictugcharter.com"
 languageCode = "en-us"
 title = "Lituya: Charter Cruise Adventures in Southeast Alaska on a Nordic Tug 42"
 theme = "hugo-creative-theme"
