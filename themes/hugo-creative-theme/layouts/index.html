@@ -24,6 +24,10 @@
             {{ partial "about.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.equipment }}
+            {{ partial "equipment.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.location }}
             {{ partial "location.html" . }}
         {{ end }}

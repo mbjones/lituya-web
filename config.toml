@@ -111,3 +111,117 @@ googleAnalytics = ""
 	latitude  = "58.382433"
 	longitude = "-134.648417"
 	maps_api_key = "AIzaSyBSzGDU9KAtNFyBJmkT9MxExZUwZX4_fQo"
+
+	# Equipment section
+	[params.equipment]
+	    headline = "Equipment"
+
+        [[params.equipment.list]]
+            icon = "fa-fire"
+	        title = "Salon/Galley"
+            details = ["Starboard settee 'L' w/large storage drawers beneath (seats 4 persons and converts to full bunk)",
+                "Hi-Lo mounted teak table",
+                "Bose entertainment system with 23-inch flat panel TV",
+                "DVD and CD player",
+                "Blue Ray DVD player",
+                "110 volt AC outlets",
+                "LED Flashlight",
+                "Day/Night custom window shades",
+                "Double, aluminum watertight entry door",
+                "Fully equipped galley for eight people",
+                "U-shaped Corian counter",
+                "3-burner LPG cooktop",
+                "Icemaker",
+                "Electric toaster",
+                "Mini food processor",
+                "12-cup electric coffee maker",
+                "Microwave/convection oven",
+                "Double stainless steel sink",
+                "Nova Kool 9.1 cubic foot refrigerator/ freezer",
+                "FoodSaver vacuum sealer",
+                "Fish fillet knives"]
+
+        [[params.equipment.list]]
+            icon = "fa-desktop"
+	        title = "Pilot House"
+            details = [
+                "Raised watch settee (converts to bunk) with table",
+                "Chart table with day/night chart light",
+                "110v AC & 12v DC outlets",
+                "Binoculars",
+                "SE Alaska charts and cruising guide",
+                "Emergency flares",
+                "Air horn (backup)",
+                "Portable (handheld) Spotlight",
+                "LED Flashlight",
+                "Fusion marine AM/FM/Sirius XM radio/CD/DVD with Bluetooth, USB & UniDoc",
+                "Escape Hatch w/screen",
+                "Cummins Smartcraft VesselView",
+                "ZF single engine throttle control",
+                "Auto Pilot (approved skippers)",
+                "Dual 12-inch RayMarine MFD (multi-function display) GPS/chart plotters",
+                "Raymarine radar",
+                "RayMarine software w/ charts and AIS Class B",
+                "RayMarine wind speed and direction sensor",
+                "Uniden VHF marine transceiver with Class D DSC and hailer",
+                "Tank monitoring system",
+                "Additional USB port GPS connection",
+                "Compass"
+                ]
+
+        [[params.equipment.list]]
+            icon = "vs vs-fish"
+	        title = "Exterior / Fishing"
+            details = [
+                "Oyster white with grey trim fiberglass hull",
+                "Spare 15 Fortress anchor w/300-feet of nylon rode",
+                "Magma rail-mountable, propane BBQ grill",
+                "Two folding chairs",
+                "Bow anchor with 300 feet of chain rode",
+                "Electrically operated windlass",
+                "Steelhead WD800 (800#) hydraulicly operated davit",
+                "10.5′ Bullfrog rigid hull tender on top deck (w/ 2Hp Honda outboard)",
+                "Lifesling2 rescue sling",
+                "Top loading freezer on top deck",
+                "Aft deck camera (fixed)",
+                "Forward and aft deck washdown hose bibs",
+                "Top deck (sundeck) access ladder w/hand rail & steps",
+                "Two single kayaks w/side rail racks (upon request)",
+                "Aft ZF helm throttle control station",
+                "Stainless fishing pole rack",
+                "Salmon net and gaff hook",
+                "Halibut harpoon and spare dart",
+                "Scotty starboard and port downriggers",
+                "Rail-mounted fish cleaning table"
+            ]
+
+	    [[params.equipment.list]]
+	        icon = "fa-gears"
+	        title = "Mechanical"
+            details = ["500 hp Cummins diesel main engine, QSC8.3 electronic",
+                "Cummins trolling valve",
+                "24V Bow and Stern thrusters w/joy stick controller",
+                "Northern Lights 9 kw electric generator",
+                "Inverter/charger (approved skippers)",
+                "2-300 gallons diesel fuel tanks (600 gal total)",
+                "230 gallons fresh water tank",
+                "Espar diesel furnace and hot water system",
+                "FireBoy fire extinguishing system",
+                "Reverso oil change system",
+                "Racor dual fuel polishing filters",
+                "Tool kit"]
+
+        [[params.equipment.list]]
+            icon = "fa-bed"
+	        title = "Cabins"
+            details = [
+                "Main cabin with Queen",
+                "Guest cabin with Double berth",
+                "Master head and walk-in shower",
+                "Aft head and walk-in shower",
+                "Hanging lockers w/automatic lights",
+                "Under berth storage drawers",
+                "Mirror on back of cabin door, full length",
+                "Berth reading lights",
+                "110v AC outlets",
+                "Hatch w/screen"]
