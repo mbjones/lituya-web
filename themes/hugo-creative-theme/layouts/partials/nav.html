@@ -36,6 +36,11 @@
                         <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                 {{ end }}
+                {{ if and .Site.Params.equipment .Site.Params.navigation.links.equipment }}
+                    <li>
+                        <a class="page-scroll" href="#equipment">{{ .Site.Params.navigation.links.equipment }}</a>
+                    </li>
+                {{ end }}
                 {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
                 <li>
                     <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>

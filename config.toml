@@ -34,9 +34,10 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			services  = "Onboard"
-			#portfolio = "Portfolio"
-			gallery = "Gallery"
+			gallery   = "Gallery"
 			about     = "Charters"
+			equipment = "Equipment"
+			location  = "Location"
 			contact   = "Contact"
 
 
