@@ -103,7 +103,7 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		headline = "Contact / Reservations"
-		description = "Ready to plan your charter with us? Give us a call or send us an email and we will get back to you as soon as possible!"
+		description = "Ready to plan your charter with us? Give us a call, send us a text, or send us an email and we will get back to you as soon as possible!"
 		phone = "907-957-6509"
 		email = "lituya.ak@gmail.com"
 
