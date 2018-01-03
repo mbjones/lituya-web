@@ -162,9 +162,11 @@ googleAnalytics = ""
                 "Auto Pilot (approved skippers)",
                 "Dual 12-inch RayMarine MFD (multi-function display) GPS/chart plotters",
                 "Raymarine radar",
-                "RayMarine software w/ charts and AIS Class B",
+                "RayMarine software w/ Navionics charts and AIS Class B",
                 "RayMarine wind speed and direction sensor",
+                "Raymarine depth sounder",
                 "Uniden VHF marine transceiver with Class D DSC and hailer",
+                "Laptop with full electronic charts and backup GPS",
                 "Tank monitoring system",
                 "Additional USB port GPS connection",
                 "Compass"
@@ -175,10 +177,10 @@ googleAnalytics = ""
 	        title = "Exterior / Fishing"
             details = [
                 "Oyster white with grey trim fiberglass hull",
-                "Spare Fortress anchor w/300-feet of nylon rode",
                 "Magma rail-mountable, propane BBQ grill",
                 "Two folding chairs",
-                "Bow anchor with 300 feet of chain rode",
+                "Bow anchor, 300 feet of chain rode",
+                "Spare Fortress anchor w/300-feet of nylon rode",
                 "Lofrans electrically operated windlass",
                 "Steelhead WD800 (800#) hydraulicly operated davit",
                 "10.5′ Bullfrog rigid hull tender on top deck (w/ 2.5hp Yamaha outboard)",
@@ -199,13 +201,14 @@ googleAnalytics = ""
 	    [[params.equipment.list]]
 	        icon = "fa-gears"
 	        title = "Mechanical"
-            details = ["500 hp Cummins diesel main engine, QSC8.3 electronic",
+            details = [
+                "500 hp Cummins diesel main engine, QSC8.3 electronic",
                 "Cummins trolling valve",
                 "24V Bow and Stern thrusters w/joy stick controller",
                 "Northern Lights 9 kw electric generator",
-                "Inverter/charger (approved skippers)",
+                "Xantrex Inverter/charger (approved skippers)",
                 "2-300 gallons diesel fuel tanks (600 gal total)",
-                "230 gallons fresh water tank",
+                "200 gallons fresh water tank",
                 "Espar diesel hydronic heating system",
                 "FireBoy fire extinguishing system",
                 "Reverso oil change system",
