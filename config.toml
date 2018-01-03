@@ -120,7 +120,8 @@ googleAnalytics = ""
         [[params.equipment.list]]
             icon = "fa-fire"
 	        title = "Salon/Galley"
-            details = ["Starboard settee 'L' w/large storage beneath (seats 4 persons and converts to full bunk)",
+            details = [
+                "Starboard settee 'L' w/large storage beneath (seats 4 persons and converts to full bunk)",
                 "Hi-Lo mounted teak table",
                 "Bose entertainment system with 23-inch flat panel TV",
                 "DVD and CD player",
@@ -154,7 +155,7 @@ googleAnalytics = ""
                 "Air horn (backup)",
                 "Portable (handheld) Spotlight",
                 "LED Flashlight",
-                "Fusion marine AM/FM/Sirius XM radio/CD/DVD with Bluetooth, USB & UniDoc",
+                "AM/FM/Sirius XM radio",
                 "Escape Hatch w/screen",
                 "Cummins Smartcraft VesselView",
                 "ZF single engine throttle control",
@@ -174,7 +175,7 @@ googleAnalytics = ""
 	        title = "Exterior / Fishing"
             details = [
                 "Oyster white with grey trim fiberglass hull",
-                "Spare 15 Fortress anchor w/300-feet of nylon rode",
+                "Spare Fortress anchor w/300-feet of nylon rode",
                 "Magma rail-mountable, propane BBQ grill",
                 "Two folding chairs",
                 "Bow anchor with 300 feet of chain rode",
@@ -205,7 +206,7 @@ googleAnalytics = ""
                 "Inverter/charger (approved skippers)",
                 "2-300 gallons diesel fuel tanks (600 gal total)",
                 "230 gallons fresh water tank",
-                "Espar diesel furnace and hot water system",
+                "Espar diesel hydronic heating system",
                 "FireBoy fire extinguishing system",
                 "Reverso oil change system",
                 "Racor dual fuel polishing filters",
