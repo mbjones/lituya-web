@@ -6,7 +6,63 @@
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
-
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "url": "https://nordictugcharter.com/",
+    "name": "Lituya Charters",
+    "image": "https://nordictugcharter.com/img/header.jpg",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Juneau",
+        "addressRegion": "AK"
+    },
+    "telephone": "+907-957-6509",
+    "email": "lituya.ak@gmail.com",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+907-957-6509",
+        "email": "lituya.ak@gmail.com",
+        "contactType": "Inquiries and reservations"
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Southeast Alaska"
+    },
+    "priceRange": "$1495/day",
+    "makesOffer": [{
+            "@id": "#Offer",
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "1495.00",
+            "itemOffered": {
+                "@id": "#BareBoatCharter",
+                "@type": "Service",
+                "name": "Bareboat Charter"
+            }
+        },
+        {
+            "@id": "#Offer",
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "1820.00",
+            "itemOffered": {
+                "@id": "#SkipperedCharter",
+                "@type": "Service",
+                "name": "Skippered Charter"
+            }
+        }
+    ]
+}
+</script>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Lituya: Charter Cruise Adventures in Southeast Alaska on a Nordic Tug 42" />
+<meta property="og:description" content="Fishing in Alaska" />
+<meta property="og:url" content="https://nordictugcharter.com/" />
+<meta property="og:site_name" content="Lituya Charters" />
+<meta property="og:image" content="https://nordictugcharter.com/img/header.jpg" />
+<meta property="og:locale" content="en_US" />
 {{ "<!-- Favicon -->" | safeHTML }}
 <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
