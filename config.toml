@@ -138,9 +138,7 @@ theme = "hugo-creative-theme"
                 "Mini food processor",
                 "12-cup electric coffee maker",
                 "Double stainless steel sink",
-                "Nova Kool 9.1 cubic foot refrigerator/ freezer",
-                "FoodSaver vacuum sealer",
-                "Fish fillet knives"]
+                "Nova Kool 9.1 cubic foot refrigerator/ freezer"]
 
         [[params.equipment.list]]
             icon = "fa-desktop"
@@ -150,12 +148,11 @@ theme = "hugo-creative-theme"
                 "Chart table with day/night chart light",
                 "110v AC & 12v DC outlets",
                 "Binoculars",
-                "SE Alaska charts and cruising guide",
+                "SE Alaska cruising guide",
                 "Emergency flares",
                 "Air horn (backup)",
                 "Portable (handheld) Spotlight",
                 "LED Flashlight",
-                "AM/FM/Sirius XM radio",
                 "Escape Hatch w/screen",
                 "Cummins Smartcraft VesselView",
                 "ZF single engine throttle control",
@@ -183,7 +180,7 @@ theme = "hugo-creative-theme"
                 "Spare Fortress anchor w/300-feet of nylon rode",
                 "Lofrans electrically operated windlass",
                 "Steelhead WD800 (800#) hydraulicly operated davit",
-                "10.5′ Bullfrog rigid hull tender on top deck (w/ 2.5hp Yamaha outboard)",
+                "10.5′ Bullfrog rigid hull tender on top deck (w/ 15hp Honda outboard)",
                 "Lifesling2 rescue sling",
                 "Top loading freezer on top deck",
                 "Aft deck camera (fixed)",
