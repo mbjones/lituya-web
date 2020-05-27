@@ -7,7 +7,7 @@
         position: absolute;
         top: 75%;
         padding: 0 50px 15px 0px;
-        background-color: rgba(20, 20, 20, 0.5);
+        background-color: rgba(20, 20, 20, 0.3);
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);

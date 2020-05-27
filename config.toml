@@ -44,8 +44,8 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Lituya<br>Adventures in<br>Southeast Alaska"
-		subtitle   = "Explore Southeast Alaska aboard Lituya, a classic Nordic Tug 42 based in Juneau, AK. Available for bareboat and skippered charters."
+		slogan     = "Lituya, Adventures in Southeast Alaska"
+		subtitle   = "Exploring Southeast Alaska aboard Lituya, a classic Nordic Tug 42 based in Juneau, AK. Not currently available for charters."
 		buttonText = "More Info"
 
 	# Service section
@@ -89,7 +89,7 @@ theme = "hugo-creative-theme"
 	# About section
 	[params.about]
 		headline    = "Charter Info"
-		description = "Launched in 2009, the Lituya is a 42′ Nordic Tug built by [Nordic Tugs](http://www.nordictugs.com/) of Burlington, Washington. The Lituya is fully equipped, seaworthy, and comfortable, and available out of Juneau, AK for both skippered or bare-boat charters in S.E. Alaska."
+		description = "NOT current available. <br/>Launched in 2009, Lituya is a 42′ Nordic Tug built by [Nordic Tugs](http://www.nordictugs.com/) of Burlington, Washington.  Lituya hails from Juneau in Souteast Alaska. Currently, Lituya is NOT available for charter."
 		#buttonText  = "Get started!"
 
     # Aside section
@@ -101,11 +101,11 @@ theme = "hugo-creative-theme"
 #			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
-	[params.contact]
-		headline = "Contact / Reservations"
-		description = "Ready to plan your charter with us? Give us a call, send us a text, or send us an email and we will get back to you as soon as possible!"
-		phone = "907-957-6509"
-		email = "lituya.ak@gmail.com"
+#	[params.contact]
+#		headline = "Contact / Reservations"
+#		description = "Ready to plan your charter with us? Give us a call, send us a text, or send us an email and we will get back to you as soon as possible!"
+#		phone = "907-957-6509"
+#		email = "lituya.ak@gmail.com"
 
 	# Google Maps section
 	[params.location]
